@@ -6,9 +6,9 @@ In this game you can create, feed, breed, pet and release animals!
 
 Each animal has a state, hunger level, age and health level.
 
-Every few seconds the hunger level decreases, you have to keep your animals fed or they might end up dying from starvation!
-But keep in mind, if a animal reaches a certain age it will also die.
-Feel free to try it out!
+Every few seconds the hunger level decreases, you have to keep your animals fed or they might end up dying from starvation!  
+But keep in mind, if a animal reaches a certain age it will also die.  
+Feel free to try it out!  
 
 >## I purely made this for entertainment + to challenge myself.
 
