@@ -12,7 +12,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Depedency injection
+// Dependency injection
 builder.Services.AddScoped<IAnimals, AnimalsRepository>();
 
 // Add hosted service
