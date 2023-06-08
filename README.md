@@ -28,7 +28,7 @@ How-to setup the database:
 
 Create a new database and update DatabaseConnector.cs in the Database folder with your connection string.
 
-Create a migration with: add-migration <name>
+Create a migration with: add-migration -insertNameHere-
 
 Then create the database table with: update-database
 
