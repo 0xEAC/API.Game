@@ -12,7 +12,7 @@ Feel free to try it out!
 
 >## I purely made this for entertainment + to challenge myself.
 
-This project uses/consists out of a:
+This project uses/consists out of (a):
 
 * Controller
 * Interface
@@ -21,5 +21,15 @@ This project uses/consists out of a:
 * Dependency injection
 * Singleton
 * Repository
+* MySQL Database
+* Entity Framework Code First
+
+How-to setup the database:
+
+Create a new database and update DatabaseConnector.cs in the Database folder with your connection string.
+
+Create a migration with: add-migration <name>
+
+Then create the database table with: update-database
 
 >## You are free to use my code, just include a link to my Github page!

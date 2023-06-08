@@ -1,13 +1,13 @@
-﻿namespace Learning.Models
+﻿namespace API.Game.Backend.Models
 {
-  public class AnimalStateEnums
-  {
-    public enum AnimalState
+    public class AnimalStateEnums
     {
-      Happy = 0,
-      Neutral,
-      Hungry,
-      Dead
+        public enum AnimalState
+        {
+            Happy = 0,
+            Neutral,
+            Hungry,
+            Dead
+        }
     }
-  }
 }

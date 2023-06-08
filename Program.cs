@@ -1,9 +1,13 @@
-using Learning.Interfaces;
-using Learning.Models;
-using Learning.Repositories;
-using Learning.Ticker;
+using API.Game.Backend.Interfaces;
+using API.Game.Backend.Models;
+using API.Game.Backend.Repositories;
+using API.Game.Backend.Ticker;
+
+
+bool useMySQL = true;
 
 var builder = WebApplication.CreateBuilder(args);
+
 
 // Add services to the container.
 
@@ -26,8 +30,8 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-  app.UseSwagger();
-  app.UseSwaggerUI();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
 app.UseAuthorization();
